@@ -1,0 +1,6 @@
+## Interface: 50200
+## Title: FakeAchievement
+## Notes: Achievement faker ;)
+## Author: @project-author@
+## Version: @project-version@
+FakeAchievement.lua
