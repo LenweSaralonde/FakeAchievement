@@ -43,8 +43,8 @@ SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 	end
 
 	local aId, playerGuid, aDone, aMonth, aDay, aYear, aName
-	local regexp = "|cffffff00|Hachievement:([0-9]+):([0-9A-F]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+)|h%[([^]]+)%]|h|r"
-	-- |cffffff00|Hachievement:734:018000000024111F:1:11:14:8:0:0:0:0|h[Grand maître de métier]|h|r
+	local regexp = "|cffffff00|Hachievement:([0-9]+):(.+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+):([%-0-9]+)|h%[([^]]+)%]|h|r"
+	-- |cffffff00|Hachievement:1789:Player-3714-06447380:0:0:0:-1:0:0:0:0|h[CorvÃ©es journaliÃ¨res]|h|r,
 
 	for aId, playerGuid, aDone, aMonth, aDay, aYear, _, _, _, _, aName in string.gmatch(aLink, regexp) do
 		DEFAULT_CHAT_FRAME:AddMessage("Achievement for "..myName..": |cffffff00|Hachievement:"..aId..":"..myGuid..":1:"..month..":"..day..":"..year..":4294967295:4294967295:4294967295:4294967295|h["..aName.."]|h|r")
