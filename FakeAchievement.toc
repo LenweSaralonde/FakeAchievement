@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 80205
 ## Title: FakeAchievement
 ## Notes: Achievement faker ;)
 ## Author: @project-author@
