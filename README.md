@@ -6,6 +6,8 @@ Also helpful to join a pickup group when requested to "link curve plz" so you ca
 
 Of course, this won't give you the achievement for real and the actual status can be verified in the armory by anyone.
 
+![Generate a fake achievement link](https://github.com/LenweSaralonde/FakeAchievement/blob/master/FakeAchievement-demo.gif?raw=true)
+
 Usage
 -----
 Target the player you want to generate the fake achievement for then type the following command:
