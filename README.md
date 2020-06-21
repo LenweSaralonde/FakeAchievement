@@ -23,3 +23,7 @@ Examples
 `/fa 4999 8/12/2010`
 
 `/fa [Realm First! Level 85] 8/12/2010`
+
+Save fake achievement links
+---------------------------
+To save fake achievement links in game, just save the /fa commands in macros and run them when needed.
