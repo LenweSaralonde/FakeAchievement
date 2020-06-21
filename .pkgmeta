@@ -8,3 +8,4 @@ license-output: LICENSE
 
 ignore:
     - FakeAchievement-demo.gif
+    - wowhead-achievement-id.png
