@@ -18,6 +18,10 @@ Target the player you want to generate the fake achievement for then type the fo
 
 The achievement link is generated for the currently targeted player. If you don't have any target, the link is generated for your character.
 
+To find the ID of an achievement, search for it on [WoWHead](https://www.wowhead.com/achievements) then grab the numeric ID from the URL.
+
+![Get achievement ID from WoWHead URL](https://github.com/LenweSaralonde/FakeAchievement/blob/master/wowhead-achievement-id.png?raw=true)
+
 Examples
 --------
 `/fa 4999 8/12/2010`
