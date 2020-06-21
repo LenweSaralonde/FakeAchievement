@@ -5,3 +5,6 @@ manual-changelog:
     markup-type: markdown
 
 license-output: LICENSE
+
+ignore:
+    - FakeAchievement-demo.gif
