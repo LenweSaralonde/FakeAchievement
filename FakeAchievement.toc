@@ -1,6 +1,6 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: FakeAchievement
 ## Notes: Achievement faker ;)
 ## Author: LenweSaralonde
-## Version: 1.1.1.0
+## Version: 1.1.1.1
 FakeAchievement.lua
