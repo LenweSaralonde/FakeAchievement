@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.1.1.3
+--------
+* TOC update for WoW patch 9.1.0.
+
 v1.1.1.2
 --------
 * TOC update for WoW patch 9.0.5.
