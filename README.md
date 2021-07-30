@@ -1,6 +1,6 @@
 Fake Achievement
 ================
-Create fake achievement / curve links for chat messages to impress noobs, fake PGMs and make laugh your friends and the girls!
+Create fake achievement / curve links for chat messages to impress noobs, fake PGMs and have fun with your friends!
 
 Also helpful to join a pickup group when requested to "link curve plz" so you can make it for real.
 
