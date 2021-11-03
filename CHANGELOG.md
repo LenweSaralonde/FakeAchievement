@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v2.6.6.6
+--------
+* Renamed the add-on into RealAchievement since faked achievement links are now automatically disabled on server side since patch 9.1.5, making this totally pointless.
+* TOC update for WoW patch 9.1.5.
+
 v1.1.1.3
 --------
 * TOC update for WoW patch 9.1.0.

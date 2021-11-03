@@ -63,20 +63,20 @@ end
 --- Display help
 --
 function FakeAchievement_Help()
-	FakeAchievement_Print("FakeAchievement usage:")
-	FakeAchievement_Print("|cFFFFFFFF/fa <achievement link or ID> <day>/<month>/<year>|r")
+	FakeAchievement_Print("RealAchievement usage:")
+	FakeAchievement_Print("|cFFFFFFFF/ra <achievement link or ID> <day>/<month>/<year>|r")
 	FakeAchievement_Print("|cFFFFFFFF<achievement link or ID>|r: Achievement link (Shift+click on achievement from achievement list) or achievement ID (from WoWHead URL).")
 	FakeAchievement_Print("|cFFFFFFFF<day>|r/|cFFFFFFFF<month>|r/|cFFFFFFFF<year>|r: Achievement date.")
 
 	local id, name = FakeAchievement_ExtractAchievement(14068)
-	local example1 = "|cFFFFFFFF/fa 14068 15/4/2020|r"
-	local example2 = "|cFFFFFFFF/fa|r |cffffff00|Hachievement:14068:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF15/4/2020|r"
+	local example1 = "|cFFFFFFFF/ra 14068 15/4/2020|r"
+	local example2 = "|cFFFFFFFF/ra|r |cffffff00|Hachievement:14068:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF15/4/2020|r"
 
 	FakeAchievement_Print("Example: \n" .. example1 .. "\n" .. example2)
 end
 
---- Main /fa command
--- Example: /fa 4999 8/12/10
+--- Main /ra command
+-- Example: /ra 4999 8/12/10
 -- @param s (string)
 SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 	local success = pcall(function()
@@ -94,7 +94,7 @@ SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 
 		targetGuid = string.gsub(targetGuid, '0x', '')
 
-		-- Extract fake achievement parameters
+		-- Extract real achievement parameters
 		local day, month, year, link
 		local a, b, c, d, e
 
@@ -120,7 +120,7 @@ SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 			return
 		end
 
-		-- Display faked achievement link in the console
+		-- Display realed achievement link in the console
 		local playerLink = "|cFFFFFFFF|Hplayer:" .. targetName .. "|h" .. targetName .. "|h|r"
 		local achievementLink = FakeAchievement_GetLink(name, id, targetGuid, day, month, year)
 		FakeAchievement_Print("Achievement for " .. playerLink .. ": " .. achievementLink)
@@ -132,3 +132,4 @@ SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 end
 
 SLASH_FAKEACHIEVEMENT1 = "/fa"
+SLASH_FAKEACHIEVEMENT2 = "/ra"

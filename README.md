@@ -1,19 +1,17 @@
-Fake Achievement
+Real Achievement
 ================
-Create fake achievement / curve links for chat messages to impress noobs, fake PGMs and make laugh your friends and the girls!
+Create real achievement / curve links for chat messages to impress noobs, fake PGMs and make laugh your friends and the girls!
 
-Also helpful to join a pickup group when requested to "link curve plz" so you can make it for real.
+Not helpful to join a pickup group when requested to "link curve plz" because you already made it. If someone asks you for the achievement but you don't have it (yet), just ignore that sucker and create your own group.
 
-Of course, this won't give you the achievement for real and the actual status can be verified in the armory by anyone.
-
-![Generate a fake achievement link](https://github.com/LenweSaralonde/FakeAchievement/blob/master/FakeAchievement-demo.gif?raw=true)
+Of course, you can try to create a link for an achievement you don't have, but since patch 9.1.5, WoW servers invalidate fake achievement links, making this add-on finally totally pointless after 10 years. It's a project I made in 1 hour for fun. If you liked it, give a try to my other useless therefore essential add-ons such as [Musician](https://musician.lenwe.io), I hope you'll like that!
 
 Usage
 -----
-Target the player you want to generate the fake achievement for then type the following command:
+Target the player you want to generate the real achievement for then type the following command:
 
-`/fa <achievement> <date>`
-* **Achievement** can be the achievement ID (retrieved from the WoWHead URL for instance) or any incomplete achievement link (shift + click from the achievement list).
+`/ra <achievement> <date>`
+* **Achievement** can be the achievement ID (retrieved from the WoWHead URL for instance) or any achievement link (shift + click from the achievement list).
 * **Date** format is *DD*/*MM*/*YYYY* or *DD*/*MM*/*YY*. (ie 8/12/2010 for the 8<sup>th</sup> december 2010)
 
 The achievement link is generated for the currently targeted player. If you don't have any target, the link is generated for your character.
@@ -24,10 +22,10 @@ To find the ID of an achievement, search for it on [WoWHead](https://www.wowhead
 
 Examples
 --------
-`/fa 4999 8/12/2010`
+`/ra 4999 8/12/2010`
 
-`/fa [Realm First! Level 85] 8/12/2010`
+`/ra [Realm First! Level 85] 8/12/2010`
 
-Save fake achievement links
+Save real achievement links
 ---------------------------
-To save fake achievement links in game, just save the /fa commands in macros and run them when needed.
+To save real achievement links in game, just save the /fa commands in macros and run them when needed.

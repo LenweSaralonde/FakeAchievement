@@ -1,6 +1,6 @@
-## Interface: 90100
-## Title: FakeAchievement
-## Notes: Achievement faker ;)
+## Interface: 90105
+## Title: RealAchievement
+## Notes: Real Achievement link generator ;)
 ## Author: LenweSaralonde
-## Version: 1.1.1.3
+## Version: 2.6.6.6
 FakeAchievement.lua
