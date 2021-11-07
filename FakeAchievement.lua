@@ -73,6 +73,7 @@ function FakeAchievement_Help()
 	local example2 = "|cFFFFFFFF/rach|r |cffffff00|Hachievement:14068:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF15/4/2020|r"
 
 	FakeAchievement_Print("Example: \n" .. example1 .. "\n" .. example2)
+	FakeAchievement_Print("Hyperlinks for achievements that you don't actually have for real will be removed if you send them over the chat.")
 end
 
 --- Main /rach command
