@@ -28,4 +28,4 @@ Examples
 
 Save real achievement links
 ---------------------------
-To save real achievement links in game, just save the /fa commands in macros and run them when needed.
+To save real achievement links in game, just save the /rach commands in macros and run them when needed.
