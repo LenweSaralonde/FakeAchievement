@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v2.6.6.6.1
+----------
+* Renamed `/ra` command into `/rach` to avoid conflict with the raid chat command.
+
 v2.6.6.6
 --------
 * Renamed the add-on into RealAchievement since faked achievement links are now automatically disabled on server side since patch 9.1.5, making this totally pointless.

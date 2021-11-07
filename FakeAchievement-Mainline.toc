@@ -2,5 +2,5 @@
 ## Title: RealAchievement
 ## Notes: Real Achievement link generator ;)
 ## Author: LenweSaralonde
-## Version: 2.6.6.6
+## Version: 2.6.6.6.1
 FakeAchievement.lua
