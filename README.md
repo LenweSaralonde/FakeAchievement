@@ -10,7 +10,7 @@ Usage
 -----
 Target the player you want to generate the real achievement for then type the following command:
 
-`/ra <achievement> <date>`
+`/rach <achievement> <date>`
 * **Achievement** can be the achievement ID (retrieved from the WoWHead URL for instance) or any achievement link (shift + click from the achievement list).
 * **Date** format is *DD*/*MM*/*YYYY* or *DD*/*MM*/*YY*. (ie 8/12/2010 for the 8<sup>th</sup> december 2010)
 
@@ -22,9 +22,9 @@ To find the ID of an achievement, search for it on [WoWHead](https://www.wowhead
 
 Examples
 --------
-`/ra 4999 8/12/2010`
+`/rach 4999 8/12/2010`
 
-`/ra [Realm First! Level 85] 8/12/2010`
+`/rach [Realm First! Level 85] 8/12/2010`
 
 Save real achievement links
 ---------------------------

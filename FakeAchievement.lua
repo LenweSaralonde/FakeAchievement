@@ -64,19 +64,19 @@ end
 --
 function FakeAchievement_Help()
 	FakeAchievement_Print("RealAchievement usage:")
-	FakeAchievement_Print("|cFFFFFFFF/ra <achievement link or ID> <day>/<month>/<year>|r")
+	FakeAchievement_Print("|cFFFFFFFF/rach <achievement link or ID> <day>/<month>/<year>|r")
 	FakeAchievement_Print("|cFFFFFFFF<achievement link or ID>|r: Achievement link (Shift+click on achievement from achievement list) or achievement ID (from WoWHead URL).")
 	FakeAchievement_Print("|cFFFFFFFF<day>|r/|cFFFFFFFF<month>|r/|cFFFFFFFF<year>|r: Achievement date.")
 
 	local id, name = FakeAchievement_ExtractAchievement(14068)
-	local example1 = "|cFFFFFFFF/ra 14068 15/4/2020|r"
-	local example2 = "|cFFFFFFFF/ra|r |cffffff00|Hachievement:14068:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF15/4/2020|r"
+	local example1 = "|cFFFFFFFF/rach 14068 15/4/2020|r"
+	local example2 = "|cFFFFFFFF/rach|r |cffffff00|Hachievement:14068:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF15/4/2020|r"
 
 	FakeAchievement_Print("Example: \n" .. example1 .. "\n" .. example2)
 end
 
---- Main /ra command
--- Example: /ra 4999 8/12/10
+--- Main /rach command
+-- Example: /rach 4999 8/12/10
 -- @param s (string)
 SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 	local success = pcall(function()
@@ -132,4 +132,4 @@ SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 end
 
 SLASH_FAKEACHIEVEMENT1 = "/fa"
-SLASH_FAKEACHIEVEMENT2 = "/ra"
+SLASH_FAKEACHIEVEMENT2 = "/rach"
