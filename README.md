@@ -1,12 +1,14 @@
-Fake Achievement
-================
-Create fake achievement / curve links for chat messages to impress noobs, fake PGMs and have fun with your friends!
+Fake Achievement Classic
+========================
+Create fake achievement links for chat messages to impress noobs, fake PGMs and have fun with your friends!
 
-Also helpful to join a pickup group when requested to "link curve plz" so you can make it for real.
+Also helpful to join a pickup group when requested to "link achievement plz" so you can make it for real.
 
 Of course, this won't give you the achievement for real and the actual status can be verified in the armory by anyone.
 
 ![Generate a fake achievement link](https://github.com/LenweSaralonde/FakeAchievement/blob/master/FakeAchievement-demo.gif?raw=true)
+
+Fake Achievement only works on WotLK Classic since at Retail patch 9.1.5, WoW servers invalidate fake achievement links. Anyway, it's just a project I made in 1 hour for fun. If you liked it, give a try to my other useless therefore essential add-ons such as [Musician](https://musician.lenwe.io), I hope you'll like that!
 
 Usage
 -----
@@ -24,9 +26,9 @@ To find the ID of an achievement, search for it on [WoWHead](https://www.wowhead
 
 Examples
 --------
-`/fa 4999 8/12/2010`
+`/fa 4625 13/11/2008`
 
-`/fa [Realm First! Level 85] 8/12/2010`
+`/fa [Invincible's Reins] 13/11/2008`
 
 Save fake achievement links
 ---------------------------

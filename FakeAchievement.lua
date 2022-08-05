@@ -68,9 +68,9 @@ function FakeAchievement_Help()
 	FakeAchievement_Print("|cFFFFFFFF<achievement link or ID>|r: Achievement link (Shift+click on achievement from achievement list) or achievement ID (from WoWHead URL).")
 	FakeAchievement_Print("|cFFFFFFFF<day>|r/|cFFFFFFFF<month>|r/|cFFFFFFFF<year>|r: Achievement date.")
 
-	local id, name = FakeAchievement_ExtractAchievement(14068)
-	local example1 = "|cFFFFFFFF/fa 14068 15/4/2020|r"
-	local example2 = "|cFFFFFFFF/fa|r |cffffff00|Hachievement:14068:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF15/4/2020|r"
+	local id, name = FakeAchievement_ExtractAchievement(4625)
+	local example1 = "|cFFFFFFFF/fa 4625 13/11/2008|r"
+	local example2 = "|cFFFFFFFF/fa|r |cffffff00|Hachievement:4625:" .. string.gsub(UnitGUID('player'), '0x', '') .. ":0:0:0:-1:0:0:0:0|h[" .. name .. "]|h|r |cFFFFFFFF13/11/2008|r"
 
 	FakeAchievement_Print("Example: \n" .. example1 .. "\n" .. example2)
 end
@@ -132,3 +132,5 @@ SlashCmdList["FAKEACHIEVEMENT"] = function(s)
 end
 
 SLASH_FAKEACHIEVEMENT1 = "/fa"
+SLASH_FAKEACHIEVEMENT2 = "/fac"
+SLASH_FAKEACHIEVEMENT3 = "/rach"

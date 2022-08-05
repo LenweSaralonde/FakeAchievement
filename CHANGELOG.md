@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v1.2.0.0
+--------
+* Updated for WotLK Classic patch 3.4.0.
+* Discontinued WoW Retail support.
+
 v1.1.1.3
 --------
 * TOC update for WoW patch 9.1.0.
