@@ -6,6 +6,7 @@
 	Author:  @project-author@
 ]]
 
+
 --- Display a message in the console
 -- @param msg (string)
 function FakeAchievement_Print(msg)
@@ -17,6 +18,12 @@ end
 function FakeAchievement_Error(msg)
 	DEFAULT_CHAT_FRAME:AddMessage(msg, RED_FONT_COLOR.r, RED_FONT_COLOR.g, RED_FONT_COLOR.b)
 	PlaySound(32051)
+end
+
+-- Don't load the add-on if not on WoTLK Classic
+if LE_EXPANSION_LEVEL_CURRENT ~= 2 then
+	FakeAchievement_Error("Fake Achievement Classic only works on WoW Classic.")
+	return
 end
 
 --- Get achievement link

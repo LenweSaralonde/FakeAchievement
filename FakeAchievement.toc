@@ -1,0 +1,6 @@
+## Interface: 30400
+## Title: FakeAchievement Classic
+## Notes: Achievement faker ;)
+## Author: LenweSaralonde
+## Version: 1.2.0.0
+FakeAchievement.lua
