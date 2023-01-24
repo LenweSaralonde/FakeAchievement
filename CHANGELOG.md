@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.2.0.1
+--------
+* Updated for WotLK Classic patch 3.4.1.
+
 v1.2.0.0
 --------
 * Updated for WotLK Classic patch 3.4.0.
