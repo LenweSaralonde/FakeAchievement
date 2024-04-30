@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.2.0.2
+--------
+* Updated for Cataclysm Classic patch 4.4.0.
+
 v1.2.0.1
 --------
 * Updated for WotLK Classic patch 3.4.1.
