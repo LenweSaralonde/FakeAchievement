@@ -21,7 +21,7 @@ function FakeAchievement_Error(msg)
 end
 
 -- Don't load the add-on if not on WoTLK Classic
-if LE_EXPANSION_LEVEL_CURRENT ~= 2 then
+if LE_EXPANSION_LEVEL_CURRENT >= 8 then
 	FakeAchievement_Error("Fake Achievement Classic only works on WoW Classic.")
 	return
 end
