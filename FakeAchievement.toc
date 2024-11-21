@@ -1,4 +1,4 @@
-## Interface: 40400
+## Interface: 40401
 ## Title: FakeAchievement Classic
 ## Notes: Achievement faker ;)
 ## Author: LenweSaralonde
