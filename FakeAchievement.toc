@@ -3,4 +3,16 @@
 ## Notes: Achievement faker ;)
 ## Author: LenweSaralonde
 ## Version: 1.2.0.2
+## Category-enUS: Chat
+## Category-deDE: Chat
+## Category-esES: Chat
+## Category-esMX: Chat
+## Category-frFR: Discussion
+## Category-itIT: Chat
+## Category-koKR: 대화
+## Category-ptBR: Bate-papo
+## Category-ruRU: Чат
+## Category-zhCN: 聊天
+## Category-zhTW: 對話
+
 FakeAchievement.lua
