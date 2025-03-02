@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v1.2.0.3
+--------
+* Added add-on category.
+* TOC bump for WoW Cataclysm Classic 4.4.2.
+
 v1.2.0.2
 --------
 * Updated for Cataclysm Classic patch 4.4.0.
