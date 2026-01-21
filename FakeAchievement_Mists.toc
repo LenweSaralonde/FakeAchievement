@@ -2,7 +2,7 @@
 ## Title: FakeAchievement Classic
 ## Notes: Achievement faker ;)
 ## Author: LenweSaralonde
-## Version: 1.2.0.3
+## Version: 1.2.0.4
 ## Category-enUS: Chat
 ## Category-deDE: Chat
 ## Category-esES: Chat

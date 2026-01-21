@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.2.0.4
+--------
+* TOC bump for MoP Classic 5.5.3
+
 v1.2.0.3
 --------
 * Added add-on category.
