@@ -1,6 +1,10 @@
 Changelog
 =========
 
+v1.2.0.5
+--------
+* Updated for MoP Classic 5.5.4.
+
 v1.2.0.4
 --------
 * TOC bump for MoP Classic 5.5.3
